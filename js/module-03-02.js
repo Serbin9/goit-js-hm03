@@ -1,6 +1,6 @@
 // Напиши функцию countProps(obj), считающую кол-во свойств в объекте.
 // Функция возвращает число - количество свойств.
-
+"use strict";
 const countProps = function(obj) {
   let numberKeys = 0;
   for (let key in obj) {

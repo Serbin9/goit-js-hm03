@@ -4,18 +4,12 @@
 
 const countTotalSalary = function(employees) {
   let sellary = Object.values(employees);
-  // console.table(sellary);
   let total = 0;
   for (let cost of sellary) {
     total += cost;
   }
   return total;
 
-  // let sum = 0;
-  // for(var i = 0; i < sellary.length; i++){
-  //     sum += sellary[i];
-  //     }
-  // console.log(sellary);
   // твой код
 };
 

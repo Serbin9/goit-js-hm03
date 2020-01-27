@@ -4,15 +4,10 @@
 "use strict";
 const findBestEmployee = function(employees) {
   const key = Object.keys(employees);
-  for (const key in findBestEmployee);
-  {
-    console.log(key);
-    const valueExx = Object.values(employees);
-    console.log(valueExx);
-    const max = Math.max(...valueExx);
-    console.log(max);
+    const valueExx = Object.values(employees)
+    const max = Math.max(...valueExx)
     return `name: ${key[valueExx.indexOf(max)]} ; к-во задач ${max}`;
-  }
+  
   // твой код
 };
 
